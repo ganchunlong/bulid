@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/home.js"></script>
+</head>
+
+<body>
+    <div class="menu-btn" id="menu-btn" onclick="navshow()">
+        <div class="line"></div>
+        <div class="line line1"></div>
+        <div class="line"></div>
+        <p>Menu</p>
+    </div>
+    <div class="header">
+        <div class="title">
+            <div>
+                <img src="./images/log11o.png" alt="" class="logo1">
+                <div class="title1">
+                    <p class="title1-1">江西省第五建设集团有限公司</p>
+                    <p class="title1-2">Jiangxi Province,the Fifth Construction Group Co.ltd.</p>
+                </div>
+            </div>
+
+            <div class="title2">
+                以诚立信 以信致远
+            </div>
+            <div class="title3">
+                In lixin Letter to reach
+            </div>
+            <div class="title4">
+                <a href="" id="mouse">
+                    <img src="./images/mouse.png" alt="">
+                </a>
+            </div>
+            <div class="prev-btn" onclick="onTopClick()">
+                <img src="./images/prev.png" alt="" class="ibtn">
+            </div>
+            <div class="next-btn" onclick="onBottomClick()">
+                <img src="./images/next.png" alt="" class="ibtn">
+            </div>
+        </div>
+        <div class="nav" id="nav">
+            <div class="closebtn" onclick="navclose()">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav1">
+                <ul class="nav1-1">
+                    <li>
+                        <a href="">首页</a>
+                    </li>
+                    <li>
+                        <a href="">社会责任</a>
+                    </li>
+                    <li>
+                        <a href="">人力资源</a>
+                    </li>
+                    <li>
+                        <a href="">联系我们</a>
+                    </li>
+                </ul>
+
+                <div class="nav2">
+                    <div class="nav2-1">
+                        <h2>
+                            <a href="">01.走进五建</a>
+                        </h2>
+                        <ul>
+
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                            <li>
+                                <a href="">集团介绍</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav2-1">
+                        <h2>
+                            <a href="">01.集团产业</a>
+                        </h2>
+                        <ul>
+
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="nav2-1">
+                        <h2>
+                            <a href="">01.企业文化</a>
+                        </h2>
+                        <ul>
+
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav2-1">
+                        <h2>
+                            <a href="">01.新闻中心</a>
+                        </h2>
+                        <ul>
+
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+                            <li>
+                                <a href="">房屋建设</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+
+        <div class="i1">
+            <div class="video"> </div>
+            <img src="images/video.png" alt="" class="i11">
+        </div>
+
+        <div class="about">
+            <div class="about1">关于我们</div>
+            <h1>“ABOUT US</h1>
+
+            <div class="alogo"></div>
+
+        </div>
+        <p class="about-title">江西省第五建设集团有限公司成立于一九九七年，系国家房屋建筑工程施工总承包 壹级、市政公用工程施工总承包壹级、装饰装修工程壹级、地基与基础工程壹级、土石工程壹级、玻璃幕墙工程壹级 、钢结构工程壹级、机电安装工程贰级、园林绿化工程贰级专业承包为一体的施工企业
+        </p>
+        <div class="more-btn">
+            <span></span>
+            <span>MORE</span>
+            <span>></span>
+        </div>
+        <ul class="ulabout">
+            <li>
+                <img src="./images/a1.png" alt="">
+                <p>100+</p>
+                <p>多家企业</p>
+            </li>
+            <li class="lineabout"></li>
+            <li>
+                <img src="./images/a2.png" alt="">
+                <p>12</p>
+                <p>万人员工</p>
+            </li>
+            <li class="lineabout"></li>
+            <li>
+                <img src="./images/a3.png" alt="">
+                <p>365</p>
+                <p>总资产</p>
+            </li>
+            <li class="lineabout"></li>
+            <li>
+                <img src="./images/a4.png" alt="">
+                <p>14</p>
+                <p>百强企业</p>
+            </li>
+
+
+        </ul>
+
+    </div>
+    <div class="stage">
+        <h2>集团产业</h2>
+        <div class="stage-logo">
+            <div class="biankuang"></div>
+            <div class="biankuang"></div>
+            <div class="biankuang"></div>
+            <div class="biankuang"></div>
+            <div class="stage-title">成就精品工程，弘扬中华文化</div>
+            <div class="stage-nav">
+                <ul style="position: relative; font-size: 0;">
+                    <span>
+                        <</span>
+                            <li class="house">
+                                <div class="house1">
+                                    <p>01</p>
+                                    <div class="himage"></div>
+                                    <p>房产业</p>
+                                    <p>HOUSE INDUSTRY</p>
+                                </div>
+
+                            </li>
+                            <li class="house">
+                                <div class="house1">
+                                    <p>01</p>
+                                    <div class="himage"></div>
+                                    <p>房产业</p>
+                                    <p>HOUSE INDUSTRY</p>
+                                </div>
+
+                            </li>
+                            <li class="house">
+                                <div class="house1">
+                                    <p>01</p>
+                                    <div class="himage"></div>
+                                    <p>房产业</p>
+                                    <p>HOUSE INDUSTRY</p>
+                                </div>
+
+                            </li>
+                            <li class="house" style="border:none;">
+                                <div class="house1">
+                                    <p>01</p>
+                                    <div class="himage"></div>
+                                    <p>房产业</p>
+                                    <p>HOUSE INDUSTRY</p>
+                                </div>
+
+                            </li>
+                            <span>></span>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="main1">
+            <div class="maintitle">
+                <p>“Philanthropy</p>
+                <span class="shehui">社会责任</span>
+                <span class="mainline"></span>
+                <p>人们一提起 “ 广厦 ” 的名字，就会联想到著名的诗句： “ 安得广厦千万间，大庇天下寒士俱欢颜。 ” 广厦以唐代大诗人杜甫千古绝唱《茅屋为秋风所破...</p>
+                <div class="more-btn" style="margin-top: 58px; margin-left: 50px;">
+                    <span></span>
+                    <span>MORE</span>
+                    <span>></span>
+                </div>
+
+            </div>
+            <div class="img">
+                <img src="./images/m1.png" alt="">
+            </div>
+
+            <div class="img2">
+                <ul>
+                    <li>
+                        <div class="img-3">
+                            <img src="./images/m2.png" alt="">
+                            <img src="./images/m3.png" alt="">
+                            <div>
+                                <img src="./images/m4.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="./images/m5.png" alt="">
+                        </div>
+                    </li>
+                    <li style="margin-left: 20px;">
+                        <div class="img">
+                            <img src="./images/m6.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="mnews">
+                <P class="mnews1">“NEWS</P>
+                <span class="mnews2">新闻中心</span>
+                <span class="mainline"></span>
+                <div class="more-btn gai">
+                    <span></span>
+                    <span>MORE</span>
+                    <span>></span>
+                </div>
+                <div class="mnews3">
+
+                    <div class="newsleft">
+                        <img src="./images/m7.png" alt="">
+                    </div>
+                    <div class="newsright">
+
+                        <ul>
+                            <li class="rtext">
+                                <div>
+                                    <p class="rtext1">11.15</p>
+                                    <p class="rtext2">2017</p>
+                                </div>
+                                <div class="rightbd"></div>
+                                <div>
+                                    <span class="rline"></span>
+                                    <p class="rtext3">此处为新闻内容</p>
+                                    <p class="rtext4">此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容</p>
+                                </div>
+
+                            </li>
+                            <li class="rtext">
+                                <div>
+                                    <p class="rtext1">11.15</p>
+                                    <p class="rtext2">2017</p>
+                                </div>
+                                <div class="rightbd"></div>
+                                <div>
+                                    <span class="rline"></span>
+                                    <p class="rtext3">此处为新闻内容</p>
+                                    <p class="rtext4">此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容</p>
+                                </div>
+
+                            </li>
+                            <li class="rtext">
+                                <div>
+                                    <p class="rtext1">11.15</p>
+                                    <p class="rtext2">2017</p>
+                                </div>
+                                <div class="rightbd"></div>
+                                <div>
+                                    <span class="rline"></span>
+                                    <p class="rtext3">此处为新闻内容</p>
+                                    <p class="rtext4">此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容</p>
+                                </div>
+
+                            </li>
+                            <li class="rtext">
+                                <div>
+                                    <p class="rtext1">11.15</p>
+                                    <p class="rtext2">2017</p>
+                                </div>
+                                <div class="rightbd"></div>
+                                <div>
+                                    <span class="rline"></span>
+                                    <p class="rtext3">此处为新闻内容</p>
+                                    <p class="rtext4">此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容</p>
+                                </div>
+
+                            </li>
+                            <li class="rtext">
+                                <div>
+                                    <p class="rtext1">11.15</p>
+                                    <p class="rtext2">2017</p>
+                                </div>
+                                <div class="rightbd"></div>
+                                <div>
+                                    <span class="rline"></span>
+                                    <p class="rtext3">此处为新闻内容</p>
+                                    <p class="rtext4">此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容</p>
+                                </div>
+
+                            </li>
+                            <li class="rtext">
+                                <div>
+                                    <p class="rtext1">11.15</p>
+                                    <p class="rtext2">2017</p>
+                                </div>
+                                <div class="rightbd"></div>
+                                <div>
+                                    <span class="rline"></span>
+                                    <p class="rtext3">此处为新闻内容</p>
+                                    <p class="rtext4">此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容此处为新闻内容</p>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <div class="banners">
+        <div class="banners1">
+            <img src="./images/banners.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div style="width: 1300px;margin: 0 auto;">
+            <div class="cleft">
+                <ul>
+                    <li>
+                        <a href="">首页</a>
+                    </li>
+                    <i style="margin-left: 73px;
+          margin-right: 47px;"> |</i>
+                    <li>
+                        <a href="">新闻动态</a>
+                    </li>
+
+                    <i style="margin-left: 40px;
+         margin-right: 57px;">|</i>
+                    <li>
+                        <a href="">工程案例</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="cmiddle">
+                <img src="./images/f1.png" alt="" style="margin-bottom: 30px;">
+                <div style="text-align: center;"> <p  class="cm1">江西省第五建设集团有限公司</p>
+                    <p class="cm2">Jiangxi Province,the Fifth Construction Group Co.ltd.</p></div>
+               
+                <div style="margin-top: 35px;">
+                <span>
+                    <img src="./images/f2.png" alt="">
+                </span>
+                <span  style="font-size: 16px;color: #727272;">电话：0791-86505999/86505111</span>
+            </div>
+            <div style="margin-top: 20px; margin-left: 117px;" >
+                <span>
+                    <img src="./images/f3.png" alt="">
+                </span>
+                <p class="cdtitle">地址：江西省南昌市西湖区万福寺15号信息大厦五楼</p>
+            </div>
+            </div>
+            <div class="cright">
+                <ul>
+                    <li>
+                        <a href="">社会责任</a>
+                    </li>
+
+                    <i style="margin-left: 44px;
+                    margin-right: 39px;"> |</i>
+                    <li>
+                        <a href="">人力资源</a>
+                    </li>
+
+                    <i style="margin-left: 47px;
+                    margin-right: 31px;"> |</i>
+                    <li>
+                        <a href="">联系我们</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>江西省第五建设集团有限公司版权所有 赣ICP备17001496号 </p>
+    </div>
+</body>
+
+</html>
